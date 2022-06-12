@@ -21,9 +21,9 @@ fn calculate_fibonacci(n: i32) {
     while next_num <= n {
         println!("num1: {}, num2: {}, next_num: {}", num1, num2, next_num);
         
-        next_num = num1 + num2;
         num1 = num2;
         num2 = next_num;
+        next_num = num1 + num2;
     }
 
 }
