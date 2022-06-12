@@ -23,7 +23,7 @@ fn calculate_fibonacci(n: i32) {
         
         num1 = num2;
         num2 = next_num;
-        next_num = num1 + num2;
+        next_num = num1 + num2; 
     }
 
 }
